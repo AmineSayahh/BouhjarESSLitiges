@@ -37,4 +37,4 @@ updateDonationStats();
 
 // Example usage:
 // Add a new donation
-addDonation('محسن الميلادي', 200); // Example donation
+addDonation('شرف الدين', 200); // Example donation
