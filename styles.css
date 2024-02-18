@@ -1,0 +1,250 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Adjust the layout of donation info */
+.donation-info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.contact-section {
+	text-align: center;
+}
+#text-lg {
+	font-weight: bold; /* Make the text bold */
+	font-size: 20px; /* Adjust the font size */
+	margin: 5px 0; /* Add some margin for spacing */
+}
+
+
+
+
+/* Style for the total amount and donor count */
+#total-amount, #donor-count {
+	font-weight: bold; /* Make the text bold */
+	font-size: 40px; /* Adjust the font size */
+	margin: 5px 0; /* Add some margin for spacing */
+	animation: countAnimation 1s ease-in-out; /* Apply the counting animation */
+}
+
+
+
+/* Animation for counting */
+@keyframes countAnimation {
+	from {
+		opacity: 0;
+		transform: translateY(-350%);
+	}
+
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+/* Adjust the layout of donation stats */
+.donation-stats {
+	text-align: center; /* Center the text within the donation stats */
+}
+
+/* Adjust the layout of left and right stats */
+#left-stats, #right-stats {
+	flex-basis: calc(50% - 5000px); /* Adjust the width of each stat container */
+}
+#donor-count {
+	margin-top: -10px; /* Adjust as needed to position slightly above */
+}
+img {
+	max-width: 100%; /* Adjust the width of the image */
+	height: auto;
+	border-radius: 5px;
+}
+
+
+/* Center the first h2 element */
+h1:first-of-type {
+	text-align: center;
+}
+
+img {
+    max-width: 35%;
+    height: 35%;
+    border-radius: 5px;
+    animation: myAnim 4s ease 0s 1 normal forwards;
+}
+
+
+@keyframes myAnim {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateY(-250px);
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0);
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateY(-65px);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateY(-28px);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateY(-8px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+}
+
+.contact-section {
+	background-color: #f9f9f9;
+	padding: 50px;
+	border-radius: 10px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+	text-align: center;
+	font-size: 24px;
+	color: #333;
+	margin-bottom: 30px;
+}
+
+.contact-section {
+	padding: 20px; /* Add some padding for spacing */
+}
+
+.contact-info {
+	display: flex;
+	flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+}
+
+.contact-person {
+	flex: 1; /* Each person takes up equal space */
+	margin: 10px; /* Add margin around each person for spacing */
+	padding: 10px; /* Add padding for spacing */
+	background-color: #f9f9f9; /* Background color */
+	border-radius: 5px; /* Rounded corners */
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Box shadow */
+}
+
+	.contact-person h2 {
+		margin-bottom: 5px; /* Add space below the name */
+	}
+
+.phone {
+	font-size: 14px; /* Decrease font size for phone number */
+}
+
+.location {
+	font-size: 14px;
+	color: #666;
+	margin-bottom: 10px;
+}
+
+.phone {
+	text-align: right;
+	color: #666;
+}
+
+#total-amount, #donor-count {
+    font-size: 24px; /* Increase font size */
+    font-weight: bold; /* Make the text bold */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Add padding */
+    border-radius: 5px; /* Add rounded corners */
+}
+
+#total-amount {
+    background-color: #f00; /* Blue background for total amount */
+}
+
+#donor-count {
+    background-color: #f00; /* Green background for donor count */
+}
+
+/* Add hover effect */
+#total-amount:hover, #donor-count:hover {
+    opacity: 0.8; /* Reduce opacity on hover */
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+/* Add animation */
+#total-amount, #donor-count {
+    animation: scaleUp 0.5s ease-in-out infinite alternate; /* Apply animation */
+}
+
+@keyframes scaleUp {
+    from {
+        transform: scale(1); /* Initial scale */
+    }
+    to {
+        transform: scale(1.05); /* Slightly scale up */
+    }
+}
+
+.donor-list {
+	text-align: right; /* Align text to the right */
+	background-color: #f9f9f9; /* Background color */
+	padding: 20px;
+	border-radius: 10px; /* Rounded corners */
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow */
+}
+
+	.donor-list h1 {
+		text-align: center; /* Center align the heading */
+		margin-bottom: 20px; /* Add some space below the heading */
+		color: #333; /* Text color */
+	}
+/* Names and Money section*/
+#donor-list {
+	list-style: none; /* Remove default list styles */
+	padding: 0;
+}
+
+#donor-list li {
+	margin-bottom: 10px; /* Add space between each list item */
+	background-color: #fff; /* Background color for each item */
+	padding: 10px; /* Padding */
+	border-radius: 5px; /* Rounded corners */
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Box shadow */
+	transition: transform 0.3s ease; /* Smooth transition on hover */
+}
+
+#donor-list li:hover {
+	transform: translateY(-5px); /* Move item up on hover */
+}
+

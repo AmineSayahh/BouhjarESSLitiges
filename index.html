@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bouhjar EssLitiges</title>
+    <link rel="icon" type="image/png" href="ess.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl text-center pt-10">
+            حملة مساهمات أحباء النجم الساحلي ببوحجر
+        </h1>
+        <div style="text-align: center; color: red;">
+            <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl text-center pt-10">
+                Ensemble, nous pouvons faire une réelle différence ⭐️ 
+            </h2>
+        </div>
+        <div class="donation-info">
+            <div class="donation-stats" id="left-stats">
+                <p>حصيلة المساهمات</p>
+                <p id="total-amount"></p> <!-- Display total amount here -->
+                <p id="text-lg">دينار</p>
+            </div>
+            <img src="ess.png" alt="Donation Image" id="donation-image">
+            <div class="donation-stats" id="right-stats">
+                <p>عدد المساهمين</p>
+                <p id="donor-count"></p> <!-- Display donation count here -->
+            </div>
+        </div>
+        <section class="contact-section">
+            <h2 class="section-title">للمساهمة يمكنكم الإتّصال </h2>
+            <div class="contact-info">
+                <div class="contact-person">
+                    <h2>Ilyes Ben Youssef</h2>
+                    <p class="phone">Phone:222222222</p>
+                </div>
+            </div>
+        </section>
+        
+        <div class="donor-list">
+            <h1>قائمة المساهمين</h1>
+            <ul id="donor-list"></ul>
+        </div>
+    </div>
+
+    <!-- Ajout de la balise audio avec lecture automatique -->
+    <audio id="background-music" src="BRIGADE ROUGE Intro Indocile 2017 HD.mp3" preload="auto" autoplay></audio>
+
+    <script src="script.js"></script> <!-- Include your script.js file -->
+</body>
+</html>
