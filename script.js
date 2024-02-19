@@ -37,7 +37,8 @@ updateDonationStats();
 
 // Example usage:
 // Add a new donation
-addDonation('رائد الديماسي', 200); // Example donation
+addDonation('رائد الديماسي', 100); // Example donation
+addDonation('علي الديماسي', 100);
 addDonation('إلياس بن يوسف', 100);
 addDonation('نبيل منصور', 100);
 addDonation('يسري بوكذابة', 100);
