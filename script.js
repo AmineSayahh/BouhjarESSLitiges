@@ -10,11 +10,8 @@ function updateDonationStats() {
 }
 
 
-// Fonction pour démarrer la lecture de la chanson
-function playBackgroundMusic() {
-    const backgroundMusic = document.getElementById('background-music');
-    backgroundMusic.play(); // Lancement de la lecture
-}
+
+
 
 
 // Function to add a new donation
