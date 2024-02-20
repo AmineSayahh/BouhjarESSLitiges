@@ -55,3 +55,5 @@ addDonation('محمد أمين الصياح', 50);
 addDonation(' بوكذابة عمر ', 50);
 addDonation('محمد يزيد الديماسي', 50);
 addDonation('محمد أمين الفقيه', 50);
+addDonation('كريم بوزيد', 50);
+addDonation('نعيم بوزيد', 50);
