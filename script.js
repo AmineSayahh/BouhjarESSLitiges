@@ -34,7 +34,10 @@ updateDonationStats();
 
 // Example usage:
 // Add a new donation
+addDonation('ياسين العاشق', 250);
 addDonation('نضال العاشق', 200);
+addDonation('وجدي بوراوي', 160);
+addDonation('عمر رجب', 150);
 addDonation('عبد الله الصياح', 130);
 addDonation('رائد الديماسي', 100); // Example donation
 addDonation('علي الديماسي', 100);
@@ -48,9 +51,13 @@ addDonation('حمزة بوزيد', 100);
 addDonation('محمد طاهر العاشق', 100);
 addDonation('صلاح شطير', 100);
 addDonation('ياسر بوصاع', 100);
+addDonation('أيمن الصياح', 100);
+addDonation('نوري الصالحي', 80);
 addDonation('محمد أمين الصياح', 50);
 addDonation(' بوكذابة عمر ', 50);
 addDonation('محمد يزيد الديماسي', 50);
 addDonation('محمد أمين الفقيه', 50);
 addDonation('كريم بوزيد', 50);
 addDonation('نعيم بوزيد', 50);
+addDonation('بوزيد نور الدين ', 50);
+addDonation('محمد عزيز الزغيدي', 50);
