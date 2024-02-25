@@ -67,4 +67,8 @@ addDonation('نعيم بوزيد', 50);
 addDonation('بوزيد نور الدين ', 50);
 addDonation('محمد عزيز الزغيدي', 50);
 addDonation('محمد بن الناصر بوزيد ', 50);
+addDonation('ميرنا وميار شطير ', 50);
 addDonation('عمر شطير', 30);
+addDonation('حافظ قريديح', 20);
+addDonation('شادي بوزيد', 20);
+addDonation('محمد ياسين بن يوسف', 20);
