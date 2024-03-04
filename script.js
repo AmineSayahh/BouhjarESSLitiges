@@ -64,9 +64,13 @@ addDonation("محمد بن الناصر بوزيد ", 50);
 addDonation("ميرنا وميار شطير ", 50);
 addDonation("عمر شطير", 50);
 addDonation("زبير بوزيد", 50);
+addDonation("نوفل بن خليفة", 40);
 addDonation("مروان الصالحي", 30);
 addDonation("حلمي عياد", 30);
 addDonation("حافظ قريديح", 20);
 addDonation("شادي بوزيد", 20);
 addDonation("محمد ياسين بن يوسف", 20);
+addDonation("ياسر بوزيد", 20);
+addDonation("محمود بن فرج بوزيد", 20);
+addDonation("المنصف شواري ", 10);
 
