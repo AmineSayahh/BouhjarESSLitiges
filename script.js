@@ -50,6 +50,7 @@ addDonation("صلاح شطير", 100);
 addDonation("ياسر بوصاع", 100);
 addDonation("أيمن الصياح", 100);
 addDonation("فرج العبيدي", 100);
+addDonation("رائف بوزيد", 100);
 addDonation("نوري الصالحي", 80);
 addDonation("ياسين السويبقي ", 80);
 addDonation("محمد عزيز السويبقي", 60);
@@ -67,13 +68,21 @@ addDonation("عمر شطير", 50);
 addDonation("زبير بوزيد", 50);
 addDonation("خليفة قريديح ", 50);
 addDonation("وجيه معاوي", 50);
+addDonation("نبيل الصياح", 50);
+addDonation("توفيق العاشق", 50);
+addDonation("يوسف الديماسي", 50);
+addDonation("أنيس بن عمر", 50);
 addDonation("نوفل بن خليفة", 40);
 addDonation("مروان الصالحي", 30);
 addDonation("حلمي عياد", 30);
+addDonation("صالح الصياح", 30);
 addDonation("حافظ قريديح", 20);
 addDonation("شادي بوزيد", 20);
 addDonation("محمد ياسين بن يوسف", 20);
 addDonation("ياسر بوزيد", 20);
 addDonation("محمود بن فرج بوزيد", 20);
+addDonation("محمد الحبيب بوزيد", 20);
 addDonation("المنصف شواري ", 10);
+
+
 
