@@ -35,6 +35,7 @@ addDonation("نضال العاشق", 200);
 addDonation("وجدي بوراوي", 160);
 addDonation("عمر رجب", 150);
 addDonation("عبد الله الصياح", 130);
+addDonation("مروان شمام", 130);
 addDonation("رائد الديماسي", 100); // Example donation
 addDonation("علي الديماسي", 100);
 addDonation("إلياس بن يوسف", 100);
