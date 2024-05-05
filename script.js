@@ -30,11 +30,13 @@ updateDonationStats();
 // Add a new donation
 
 addDonation("ضياء المحمدي", 461);
+addDonation("ميسن إبراهيم", 461);
 addDonation("ياسين العاشق", 250);
 addDonation("مقهى الزيتونة", 240);
 addDonation("نضال العاشق", 200);
 addDonation("قصي عياد", 200);
 addDonation("فهد العبيدي", 200);
+addDonation("محمد أمين الصياح", 200);
 addDonation("وجدي بوراوي", 160);
 addDonation("عمر رجب", 150);
 addDonation("عبد الله الصياح", 130);
@@ -60,6 +62,7 @@ addDonation("جهاد بن حسن", 100);
 addDonation("حيدر العاشق", 100);
 addDonation("عمار شطير", 100);
 addDonation("أسامة بن عائشة", 100);
+addDonation("هاني نصر", 100);
 addDonation("الصحبي شواري", 90);
 addDonation("نوري الصالحي", 80);
 addDonation("ياسين السويبقي ", 80);
