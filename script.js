@@ -30,7 +30,7 @@ updateDonationStats();
 // Add a new donation
 
 addDonation("ضياء المحمدي", 461);
-addDonation("ميسن إبراهيم", 461);
+addDonation("ميسن إبراهيم", 300);
 addDonation("ياسين العاشق", 250);
 addDonation("مقهى الزيتونة", 240);
 addDonation("نضال العاشق", 200);
